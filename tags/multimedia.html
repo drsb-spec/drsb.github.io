@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Elementos de Multimédia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { 
+          font-family: Arial, sans-serif; 
+          margin: 20px; 
+      }
+      ul {
+          list-style-type: none;
+          padding: 0;
+      }
+      #btn {
+      right: 15px;
+      bottom: 15px;
+      position: fixed;
+    }
+    </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Elementos de Multimédia</h1>
+
+  <br><h2 style="text-align: center; text-decoration: underline; text-underline-offset: 6px;">Vídeo</h2>
+  O elemento <b>&lt;video&gt; … &lt;/video&gt;</b> é usado para inserir vídeos numa página HTML.<br><br>
+
+  <b>Explicação:</b>
+  <ul>
+    <li>Permite mostrar vídeos diretamente na página.</li>
+    <li>Usa o atributo <b>controls</b> para exibir os botões de reprodução.</li>
+    <li>O atributo <b>src</b> indica o arquivo de vídeo.</li>
+  </ul>
+
+  <b>Exemplo:</b><br>
+  &lt;video src="video.mp4" width="640" height="360" controls&gt;&lt;/video&gt; <br><br><br>
+
+<div style="text-align: center;">
+    <video style="align-content: center;" width="640" height="360" controls poster="../img/bryant.png">
+        <source src="../img/bryant.mp4">
+    </video>
+</div>
+
+  <br><br><h2 style="text-align: center; text-decoration: underline; text-underline-offset: 6px;">Áudio</h2>
+  O elemento <b>&lt;audio&gt; … &lt;/audio&gt;</b> é usado para inserir sons ou músicas numa página HTML.<br><br>
+
+  <b>Explicação:</b>
+  <ul>
+    <li>Permite reproduzir áudio diretamente na página.</li>
+    <li>Usa o atributo <b>controls</b> para mostrar os controles de som.</li>
+    <li>O atributo <b>src</b> indica o arquivo de áudio.</li>
+  </ul>
+
+  <b>Exemplo:</b><br>
+  &lt;audio src="musica.mp3" controls&gt;&lt;/audio&gt; <br><br>
+  <div style="text-align: center;">
+  <audio src="../img/bryant.mp3" controls></audio>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tabelas em HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { 
+          font-family: Arial, sans-serif; 
+          margin: 20px; 
+      }
+      ul {
+          list-style-type: none;
+          padding: 0;
+      }
+      table {
+          border-collapse: collapse;
+          width: 70%;
+          margin: 20px auto;
+          text-align: center;
+      }
+      th, td {
+          border: 1px solid #000;
+          padding: 8px;
+      }
+      caption {
+          caption-side: top;
+          font-weight: bold;
+          margin-bottom: 10px;
+          text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Tabelas em HTML</h1>
+
+  <br><h2 style="text-align: center; text-decoration: underline; text-underline-offset: 6px;">Tags principais</h2>
+
+  <b>Explicação:</b>
+  <ul>
+    <li><b>&lt;table&gt;</b> → define a tabela.</li>
+    <li><b>&lt;caption&gt;</b> → define a legenda da tabela.</li>
+    <li><b>&lt;tr&gt;</b> → cria uma linha.</li>
+    <li><b>&lt;colgroup&gt;</b> → agrupa colunas para formatação.</li>
+    <li><b>&lt;col&gt;</b> → define propriedades de colunas dentro de um colgroup.</li>
+    <li><b>&lt;thead&gt;</b> → grupo de cabeçalhos.</li>
+    <li><b>&lt;tbody&gt;</b> → grupo com o conteúdo da tabela.</li>
+    <li><b>&lt;tfoot&gt;</b> → grupo com o rodapé.</li>
+    <li><b>&lt;th&gt;</b> → define uma célula de cabeçalho.</li>
+    <li><b>&lt;td&gt;</b> → define uma célula de dados.</li>
+  </ul>
+
+  <br><h2 style="text-align: center; text-decoration: underline; text-underline-offset: 6px;">Atributos importantes</h2>
+
+  <b>Explicação:</b>
+  <ul>
+    <li><b>align</b> → alinha o conteúdo horizontalmente (left, right, center).</li>
+    <li><b>valign</b> → alinha verticalmente (top, middle, bottom).</li>
+    <li><b>bgcolor</b> → define a cor de fundo.</li>
+    <li><b>border</b> → define a espessura da borda (em pixels).</li>
+    <li><b>cellpadding</b> → espaço entre o texto e a borda da célula.</li>
+    <li><b>cellspacing</b> → espaço entre as células da tabela.</li>
+    <li><b>width</b> → define a largura (em px ou %).</li>
+    <li><b>colspan</b> → une células horizontalmente.</li>
+    <li><b>rowspan</b> → une células verticalmente.</li>
+  </ul>
+
+  <br><h2 style="text-align: center; text-decoration: underline; text-underline-offset: 6px;">Exemplo:</h2>
+
+  <table border="1" cellpadding="5" cellspacing="2" width="70%">
+    <caption>Tabela de Exemplo</caption>
+    <thead>
+      <tr bgcolor="#ddd">
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Maria</td>
+        <td align="center">25</td>
+        <td>Lisboa</td>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td align="center">30</td>
+        <td>Porto</td>
+      </tr>
+      <tr>
+        <td colspan="3" bgcolor="#eee"><b>Rodapé da Tabela</b></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

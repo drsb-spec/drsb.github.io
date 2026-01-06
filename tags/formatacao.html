@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Texto (formatação)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { 
+          font-family: Arial, sans-serif; 
+          margin: 20px; 
+      }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+      }
+      th, td {
+          border: 1px solid #999;
+          padding: 8px 12px;
+          text-align: left;
+          vertical-align: top;
+      }
+      th {
+          background-color: #f0f0f0;
+      }
+      code {
+          background-color: #f4f4f4;
+          color: #d2691e;
+          padding: 2px 6px;
+          border-radius: 4px;
+          font-family: Consolas, monospace;
+      }
+      #btn {
+      right: 15px;
+      bottom: 15px;
+      position: fixed;
+    }
+    </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Texto (formatação)</h1>
+
+  <table>
+    <h3>tags:</h3>
+    <tr>
+      <th>Tag</th>
+      <th>Exemplo</th>
+      <th>Função</th>
+    </tr>
+    <tr>
+      <td><code>&lt;b&gt; ... &lt;/b&gt;</code></td>
+      <td><b>negrito</b></td>
+      <td>Texto em negrito (bold)</td>
+    </tr>
+    <tr>
+      <td><code>&lt;em&gt; ... &lt;/em&gt;</code></td>
+      <td><em>itálico sombreado</em></td>
+      <td>Texto em itálico com ênfase (emphasis)</td>
+    </tr>
+    <tr>
+      <td><code>&lt;i&gt; ... &lt;/i&gt;</code></td>
+      <td><i>itálico</i></td>
+      <td>Texto em itálico</td>
+    </tr>
+    <tr>
+      <td><code>&lt;strong&gt; ... &lt;/strong&gt;</code></td>
+      <td><strong>grande negrito</strong></td>
+      <td>Texto forte, com ênfase maior que &lt;b&gt;</td>
+    </tr>
+    <tr>
+      <td><code>&lt;sub&gt; ... &lt;/sub&gt;</code></td>
+      <td>H<sub>2</sub>O</td>
+      <td>Texto inferior à linha (subscrito)</td>
+    </tr>
+    <tr>
+      <td><code>&lt;sup&gt; ... &lt;/sup&gt;</code></td>
+      <td>10<sup>10</sup></td>
+      <td>Texto superior à linha (sobrescrito)</td>
+    </tr>
+    <tr>
+      <td><code>&lt;ins&gt; ... &lt;/ins&gt;</code></td>
+      <td><ins>sublinhado</ins></td>
+      <td>Texto sublinhado</td>
+    </tr>
+    <tr>
+      <td><code>&lt;u&gt; ... &lt;/u&gt;</code></td>
+      <td><u>sublinhado</u></td>
+      <td>Texto sublinhado (não semântico)</td>
+    </tr>
+    <tr>
+      <td><code>&lt;del&gt; ... &lt;/del&gt;</code></td>
+      <td><del>rasurado</del></td>
+      <td>Texto riscado ou deletado</td>
+    </tr>
+  </table>
+
+</body>
+</html>
